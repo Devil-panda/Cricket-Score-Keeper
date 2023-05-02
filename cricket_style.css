@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(229, 234, 155);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(145deg, #101010, #595a59);
+    border: 2px solid #000000;
+}
+
+.score-add {
+    top: 100vh;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    font-family: Arial, sans-serif;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(145deg, #0bb432, #09972a);
+    border-radius: 25px;
+    border: 2px solid #0db434;
+}
+
+.btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(145deg, #0bb432, #09972a);
+    border: 2px solid #0bb432;
+    box-shadow: inset 5px 5px 10px #033d10,
+        inset -5px -5px 10px #0fff47;;
+}
+
+.btn-danger {
+    background-color: #fc1e57;
+    border-color: #fc3667;
+    border-radius: 25px;
+}
+
+.btn-danger:hover {
+    background: #fc1e57;
+    border: 2px solid #fc3667;
+    box-shadow: inset 15px 5px 10px #790e2a,
+        inset -15px -5px 10px #ff2e84;
+}
+
+#result {
+    font-weight: bold;
+    bottom: 250px;
+    color: rgb(33, 222, 33);
+    text-align: center;
+}
+
+#result:empty {
+    display: none;
+}
+
+.ipl {
+    font-size: 200%;
+    color: blue;
+}
+
+.run {
+    color: rgb(86, 198, 86);
+}
+
+.runs {
+    color: #7fd01d;
+}
+
+.csk {
+    color: #0fff47;
+}
+
+.rcb {
+    color: red;
+}
